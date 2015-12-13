@@ -1,0 +1,782 @@
+/*
+ *                        ___
+ *                       /\_ \
+ *  _____     ___     ___\//\ \      __
+ * /\ '__`\  / __`\  / __`\\ \ \   /'__`\
+ * \ \ \_\ \/\ \_\ \/\ \_\ \\_\ \_/\  __/
+ *  \ \ ,__/\ \____/\ \____//\____\ \____\
+ *   \ \ \/  \/___/  \/___/ \/____/\/____/
+ *    \ \_\
+ *     \/_/
+ *
+ * Designed, built, and released under MIT license by @mdo. Learn more at
+ * https://github.com/poole/poole.
+ */
+
+/*
+ * Contents
+ *
+ * Body resets
+ * Custom type
+ * Messages
+ * Container
+ * Masthead
+ * Posts and pages
+ * Pagination
+ * Reverse layout
+ * Themes
+ */
+
+/*
+ * Body resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media (min-width: 38em) {
+    html {
+        font-size: 20px;
+    }
+}
+
+body {
+    color: #515151;
+    background-color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/* No `:visited` state is required by default (browsers will use `a`) */
+a {
+    color: #268bd2;
+    text-decoration: none;
+}
+
+a strong {
+    color: inherit;
+}
+
+/* `:focus` is linked to `:hover` for basic accessibility */
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: bold;
+    line-height: 1.25;
+    color: #313131;
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+h3 {
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+}
+
+h4, h5, h6 {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+/* Body text */
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+strong {
+    color: #303030;
+}
+
+/* Lists */
+ul, ol, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-bottom: .5rem;
+}
+
+/* Misc */
+hr {
+    position: relative;
+    margin: 1.5rem 0;
+    border: 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #fff;
+}
+
+abbr {
+    font-size: 85%;
+    font-weight: bold;
+    color: #555;
+    text-transform: uppercase;
+}
+
+abbr[title] {
+    cursor: help;
+    border-bottom: 1px dotted #e5e5e5;
+}
+
+/* Code */
+code,
+pre {
+    font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+code {
+    padding: .25em .5em;
+    font-size: 85%;
+    color: #bf616a;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+}
+
+pre {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: .8rem;
+    line-height: 1.4;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f9f9f9;
+}
+
+pre code {
+    padding: 0;
+    font-size: 100%;
+    color: inherit;
+    background-color: transparent;
+}
+
+/* Pygments via Jekyll */
+.highlight {
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+
+.highlight pre {
+    margin-bottom: 0;
+}
+
+/* Gist via GitHub Pages */
+.gist .gist-file {
+    font-family: Menlo, Monaco, "Courier New", monospace !important;
+}
+
+.gist .markdown-body {
+    padding: 15px;
+}
+
+.gist pre {
+    padding: 0;
+    background-color: transparent;
+}
+
+.gist .gist-file .gist-data {
+    font-size: .8rem !important;
+    line-height: 1.4;
+}
+
+.gist code {
+    padding: 0;
+    color: inherit;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+/* Quotes */
+blockquote {
+    padding: .5rem 1rem;
+    margin: .8rem 0;
+    color: #7a7a7a;
+    border-left: .25rem solid #e5e5e5;
+}
+
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+@media (min-width: 30em) {
+    blockquote {
+        padding-right: 5rem;
+        padding-left: 1.25rem;
+    }
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 0 1rem;
+    border-radius: 5px;
+}
+
+/* Tables */
+table {
+    margin-bottom: 1rem;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: .25rem .5rem;
+    border: 1px solid #e5e5e5;
+}
+
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+    background-color: #f9f9f9;
+}
+
+/*
+ * Custom type
+ *
+ * Extend paragraphs with `.lead` for larger introductory text.
+ */
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+/*
+ * Messages
+ *
+ * Show alert messages to users. You may add it to single elements like a `<p>`,
+ * or to a parent if there are multiple elements to show.
+ */
+
+.message {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    color: #717171;
+    background-color: #f9f9f9;
+}
+
+/*
+ * Container
+ *
+ * Center the page content.
+ */
+
+.container {
+    max-width: 38rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+ * Masthead
+ *
+ * Super small header above the content for site name and short description.
+ */
+
+.masthead {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+}
+
+.masthead-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #505050;
+}
+
+.masthead-title a {
+    color: #505050;
+}
+
+.masthead-title small {
+    font-size: 75%;
+    font-weight: 400;
+    color: #c0c0c0;
+    letter-spacing: 0;
+}
+
+/*
+ * Posts and pages
+ *
+ * Each post is wrapped in `.post` and is used on default and post layouts. Each
+ * page is wrapped in `.page` and is only used on the page layout.
+ */
+
+.page,
+.post {
+    margin-bottom: 4em;
+}
+
+/* Blog post or page title */
+.page-title,
+.post-title,
+.post-title a {
+    color: #303030;
+}
+
+.page-title,
+.post-title {
+    margin-top: 0;
+}
+
+/* Meta data line below post title */
+.post-date {
+    display: block;
+    margin-top: -.5rem;
+    margin-bottom: 1rem;
+    color: #9a9a9a;
+}
+
+/* Related posts */
+.related {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top: 1px solid #eee;
+}
+
+.related-posts {
+    padding-left: 0;
+    list-style: none;
+}
+
+.related-posts h3 {
+    margin-top: 0;
+}
+
+.related-posts li small {
+    font-size: 75%;
+    color: #999;
+}
+
+.related-posts li a:hover {
+    color: #268bd2;
+    text-decoration: none;
+}
+
+.related-posts li a:hover small {
+    color: inherit;
+}
+
+/*
+ * Pagination
+ *
+ * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
+ * there are no more previous or next posts to show.
+ */
+
+.pagination {
+    overflow: hidden; /* clearfix */
+    margin-left: -1rem;
+    margin-right: -1rem;
+    font-family: "Roboto", sans-serif;
+    color: #ccc;
+    text-align: center;
+}
+
+/* Pagination items can be `span`s or `a`s */
+.pagination-item {
+    display: block;
+    padding: 1rem;
+    border: 1px solid #eee;
+}
+
+.pagination-item:first-child {
+    margin-bottom: -1px;
+}
+
+/* Only provide a hover state for linked pagination items */
+a.pagination-item:hover {
+    background-color: #f5f5f5;
+}
+
+@media (min-width: 30em) {
+    .pagination {
+        margin: 3rem 0;
+    }
+
+    .pagination-item {
+        float: left;
+        width: 50%;
+    }
+
+    .pagination-item:first-child {
+        margin-bottom: 0;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+    }
+
+    .pagination-item:last-child {
+        margin-left: -1px;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+}
+
+/*
+ *  __                  __
+ * /\ \                /\ \
+ * \ \ \___   __  __   \_\ \     __
+ *  \ \  _ `\/\ \/\ \  /'_` \  /'__`\
+ *   \ \ \ \ \ \ \_\ \/\ \_\ \/\  __/
+ *    \ \_\ \_\/`____ \ \___,_\ \____\
+ *     \/_/\/_/`/___/> \/__,_ /\/____/
+ *                /\___/
+ *                \/__/
+ *
+ * Designed, built, and released under MIT license by @mdo. Learn more at
+ * https://github.com/poole/hyde.
+ */
+
+/*
+ * Contents
+ *
+ * Global resets
+ * Sidebar
+ * Container
+ * Reverse layout
+ * Themes
+ */
+
+/*
+ * Global resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+
+@media (min-width: 48em) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 58em) {
+    html {
+        font-size: 20px;
+    }
+}
+
+/*
+ * Sidebar
+ *
+ * Flexible banner for housing site name, intro, and "footer" content. Starts
+ * out above content in mobile and later moves to the side with wider viewports.
+ */
+
+.sidebar {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: rgba(255, 255, 255, .5);
+    background-color: #2d2d2d;
+}
+
+.svg-icon {
+    width: 4rem;
+    height: 4rem;
+    display: inline-block;
+}
+
+.svg-icon.github {
+    background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iNjdweCIgaWQ9IkxheWVyXzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDY3IDY3OyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNjcgNjciIHdpZHRoPSI2N3B4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBkPSJNMjAuNTQzLDM0LjU2OWMtMC4wNTQtMC4wMDEsMC41OTIsMS4zNjYsMC42MSwxLjM2NiAgYzEuNDEsMi41MTYsNC4xMjgsNC4wOCw4LjcxMyw0LjUxNGMtMC42NTQsMC40ODgtMS40NCwxLjQxNC0xLjU0OSwyLjQ4NGMtMC44MjMsMC41MjMtMi40NzgsMC42OTYtMy43NjQsMC4yOTcgIGMtMS44MDMtMC41NTktMi40OTMtNC4wNjYtNS4xOTItMy41NjZjLTAuNTg0LDAuMTA3LTAuNDY4LDAuNDg2LDAuMDM3LDAuODA4YzAuODIzLDAuNTI0LDEuNTk3LDEuMTc5LDIuMTk0LDIuNTcyICBjMC40NTksMS4wNywxLjQyMywyLjk4MSw0LjQ3MywyLjk4MWMxLjIxLDAsMi4wNTgtMC4xNDMsMi4wNTgtMC4xNDNzMC4wMjMsMi43MzEsMC4wMjMsMy43OTNjMCwxLjIyNS0xLjY4MiwxLjU3LTEuNjgyLDIuMTU5ICBjMCwwLjIzMywwLjU1NywwLjI1NSwxLjAwNCwwLjI1NWMwLjg4NCwwLDIuNzIzLTAuNzI1LDIuNzIzLTEuOTk4YzAtMS4wMTEsMC4wMTctNC40MTEsMC4wMTctNS4wMDZjMC0xLjMsMC43MDktMS43MTIsMC43MDktMS43MTIgIHMwLjA4OCw2Ljk0LTAuMTY5LDcuODcyYy0wLjMwMiwxLjA5NC0wLjg0NywwLjkzOS0wLjg0NywxLjQyN2MwLDAuNzI2LDIuMjE0LDAuMTc5LDIuOTQ4LTEuNDE2YzAuNTY3LTEuMjM5LDAuMzE5LTguMDUsMC4zMTktOC4wNSAgbDAuNjA1LTAuMDEyYzAsMCwwLjAzNCwzLjExNywwLjAxMyw0LjU0MmMtMC4wMjEsMS40NzYtMC4xMjMsMy4zNDIsMC43NjksNC4yMjJjMC41ODYsMC41NzksMi40ODQsMS41OTQsMi40ODQsMC42NjYgIGMwLTAuNTM5LTEuMDQtMC45ODItMS4wNC0yLjQ0MXYtNi43MTVjMC44MzEsMCwwLjcwNiwyLjIwOCwwLjcwNiwyLjIwOGwwLjA2MSw0LjEwM2MwLDAtMC4xODQsMS40OTQsMS42NDUsMi4xMTkgIGMwLjY0NSwwLjIyMywyLjAyNSwwLjI4MiwyLjA5LTAuMDljMC4wNjUtMC4zNzMtMS42NjItMC45MjgtMS42NzgtMi4wODRjLTAuMDEtMC43MDcsMC4wMzItMS4xMTksMC4wMzItNC4xODcgIGMwLTMuMDY4LTAuNDE5LTQuMjAyLTEuODgtNS4xMDZjNC41MDgtMC40NTUsNy4yOTktMS41NTEsOC42NTgtNC40ODZjMC4xMDYsMC4wMDMsMC41NTUtMS4zNzEsMC40OTYtMS4zNzEgIGMwLjMwNS0xLjEwOCwwLjQ3LTIuNDE5LDAuNTAyLTMuOTcxYy0wLjAwOC00LjIxLTIuMDU4LTUuNjk5LTIuNDUxLTYuMzk4YzAuNTgtMy4xODctMC4wOTgtNC42MzctMC40MTItNS4xMzUgIGMtMS4xNjItMC40MDYtNC4wNDEsMS4wNDUtNS42MTUsMi4wNjZjLTIuNTY0LTAuNzM3LTcuOTg2LTAuNjY2LTEwLjAxOSwwLjE5Yy0zLjc1MS0yLjYzOS01LjczNi0yLjIzNS01LjczNi0yLjIzNSAgcy0xLjI4MywyLjI1OS0wLjMzOSw1LjU2NWMtMS4yMzQsMS41NDYtMi4xNTQsMi42NC0yLjE1NCw1LjUzOUMxOS45MDYsMzEuODMsMjAuMTAyLDMzLjI5MiwyMC41NDMsMzQuNTY5eiBNMzMsNjQgIEMxNi40MzIsNjQsMyw1MC41NjksMywzNFMxNi40MzIsNCwzMyw0czMwLDEzLjQzMSwzMCwzMFM0OS41NjgsNjQsMzMsNjR6IiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDojRDhEOUQ4OyIvPjwvc3ZnPg==") no-repeat;
+}
+
+.svg-icon.twitter {
+    background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iNjdweCIgaWQ9IkxheWVyXzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDY3IDY3OyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNjcgNjciIHdpZHRoPSI2N3B4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBkPSJNMzcuMTY3LDIyLjI4M2MtMi42MTksMC45NTMtNC4yNzQsMy40MTEtNC4wODYsNi4xMDEgIGwwLjA2MywxLjAzOGwtMS4wNDgtMC4xMjdjLTMuODEzLTAuNDg3LTcuMTQ1LTIuMTM5LTkuOTc0LTQuOTE1bC0xLjM4My0xLjM3N2wtMC4zNTYsMS4wMTdjLTAuNzU0LDIuMjY3LTAuMjcyLDQuNjYxLDEuMjk5LDYuMjcxICBjMC44MzgsMC44OSwwLjY0OSwxLjAxNy0wLjc5NiwwLjQ4N2MtMC41MDMtMC4xNjktMC45NDMtMC4yOTYtMC45ODUtMC4yMzNjLTAuMTQ2LDAuMTQ5LDAuMzU2LDIuMDc2LDAuNzU0LDIuODM5ICBjMC41NDUsMS4wNiwxLjY1NSwyLjA5NywyLjg3MSwyLjcxMmwxLjAyNywwLjQ4N2wtMS4yMTUsMC4wMjFjLTEuMTczLDAtMS4yMTUsMC4wMjEtMS4wODksMC40NjcgIGMwLjQxOSwxLjM3NywyLjA3NCwyLjgzOSwzLjkxOCwzLjQ3NWwxLjI5OSwwLjQ0NGwtMS4xMzEsMC42NzhjLTEuNjc2LDAuOTc2LTMuNjQ2LDEuNTI2LTUuNjE2LDEuNTY4ICBDMTkuNzc1LDQzLjI1NiwxOSw0My4zNDEsMTksNDMuNDA1YzAsMC4yMTEsMi41NTcsMS4zOTcsNC4wNDQsMS44NjRjNC40NjMsMS4zNzcsOS43NjUsMC43ODMsMTMuNzQ2LTEuNTY4ICBjMi44MjktMS42NzMsNS42NTctNSw2Ljk3OC04LjIyMWMwLjcxMy0xLjcxNiwxLjQyNS00Ljg1MSwxLjQyNS02LjM1NGMwLTAuOTc1LDAuMDYzLTEuMTAyLDEuMjM2LTIuMjY3ICBjMC42OTItMC42NzgsMS4zNDEtMS40MTksMS40NjctMS42MzFjMC4yMS0wLjQwMywwLjE4OC0wLjQwMy0wLjg4LTAuMDQzYy0xLjc4MSwwLjYzNi0yLjAzMywwLjU1MS0xLjE1Mi0wLjQwMiAgYzAuNjQ5LTAuNjc4LDEuNDI1LTEuOTA3LDEuNDI1LTIuMjY3YzAtMC4wNjMtMC4zMTQsMC4wNDItMC42NzEsMC4yMzNjLTAuMzc3LDAuMjEyLTEuMjE1LDAuNTMtMS44NDQsMC43MmwtMS4xMzEsMC4zNjFsLTEuMDI3LTAuNyAgYy0wLjU2Ni0wLjM4MS0xLjM2MS0wLjgwNS0xLjc4MS0wLjkzMkMzOS43NjYsMjEuOTAyLDM4LjEzMSwyMS45NDQsMzcuMTY3LDIyLjI4M3ogTTMzLDY0QzE2LjQzMiw2NCwzLDUwLjU2OSwzLDM0UzE2LjQzMiw0LDMzLDQgIHMzMCwxMy40MzEsMzAsMzBTNDkuNTY4LDY0LDMzLDY0eiIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO2ZpbGw6I0Q4RDlEODsiLz48L3N2Zz4=") no-repeat;
+}
+
+.svg-icon.linkedin {
+    background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iNjdweCIgaWQ9IkxheWVyXzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDY3IDY3OyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNjcgNjciIHdpZHRoPSI2N3B4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBkPSJNNDkuODM3LDQ4LjEzN1YzNi40MjVjMC02LjI3NS0zLjM1LTkuMTk1LTcuODE2LTkuMTk1ICBjLTMuNjA0LDAtNS4yMTksMS45ODMtNi4xMTksMy4zNzRWMjcuNzFoLTYuNzljMC4wOSwxLjkxNywwLDIwLjQyNywwLDIwLjQyN2g2Ljc5VjM2LjcyOWMwLTAuNjA5LDAuMDQ0LTEuMjE5LDAuMjI0LTEuNjU1ICBjMC40OS0xLjIyLDEuNjA3LTIuNDgzLDMuNDgyLTIuNDgzYzIuNDU4LDAsMy40NCwxLjg3MywzLjQ0LDQuNjE4djEwLjkyOUg0OS44Mzd6IE0yMS45NTksMjQuOTIyYzIuMzY3LDAsMy44NDItMS41NywzLjg0Mi0zLjUzMSAgYy0wLjA0NC0yLjAwMy0xLjQ3NS0zLjUyOC0zLjc5Ny0zLjUyOHMtMy44NDEsMS41MjQtMy44NDEsMy41MjhjMCwxLjk2MSwxLjQ3NCwzLjUzMSwzLjc1MywzLjUzMUgyMS45NTl6IE0zMyw2NCAgQzE2LjQzMiw2NCwzLDUwLjU2OCwzLDM0QzMsMTcuNDMxLDE2LjQzMiw0LDMzLDRzMzAsMTMuNDMxLDMwLDMwQzYzLDUwLjU2OCw0OS41NjgsNjQsMzMsNjR6IE0yNS4zNTQsNDguMTM3VjI3LjcxaC02Ljc4OXYyMC40MjcgIEgyNS4zNTR6IiBzdHlsZT0iZmlsbC1ydWxlOmV2ZW5vZGQ7Y2xpcC1ydWxlOmV2ZW5vZGQ7ZmlsbDojRDhEOUQ4OyIvPjwvc3ZnPg==") no-repeat;
+}
+
+.svg-icon.googleplus {
+    background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iNjdweCIgaWQ9IkxheWVyXzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDY3IDY3OyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNjcgNjciIHdpZHRoPSI2N3B4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBkPSJNMzEuOTYzLDM1LjAwMmMxLjYwOC0xLjYwOCwxLjczNC0zLjg0NSwxLjczNC01LjEwMiAgYzAtNS4wNTEtMi45OTEtMTIuODc1LTguNzk2LTEyLjg3NWMtMS44MSwwLTMuNzcsMC45MS00LjksMi4zMWMtMS4xODEsMS40NjgtMS41MzMsMy4zNTMtMS41MzMsNS4xNjIgIGMwLDQuNywyLjcxNCwxMi40NjUsOC43NDYsMTIuNDY1QzI4Ljk0OCwzNi45NjIsMzAuODMzLDM2LjEwNywzMS45NjMsMzUuMDAyeiBNMywzNGMwLDcuNDA1LDIuNjgzLDE0LjE4NCw3LjEyOSwxOS40MTUgIGMwLjgzOS0xLjQxLDIuMTQtMi43OTcsNC4wNjYtMy45MzdjNC4zNDgtMi42NjQsMTAuMjA0LTMuMDE3LDEzLjM3LTMuMjE4Yy0wLjk4LTEuMjU3LTIuMTExLTIuNTg5LTIuMTExLTQuNzc0ICBjMC0xLjE4MiwwLjM1Mi0xLjg4NSwwLjcwNC0yLjcxNWMtMC43NzksMC4wNzUtMS41MzMsMC4xNTEtMi4yMzcsMC4xNTFjLTcuNDE0LDAtMTEuNjExLTUuNTI5LTExLjYxMS0xMC45ODMgIGMwLTMuMjE3LDEuNDgzLTYuNzkxLDQuNDczLTkuMzc3YzMuOTk2LTMuMjg0LDguNzQ2LTMuODQ1LDEyLjUxNi0zLjg0NUg0My43bC00LjQ3NCwyLjUxNmgtNC4zMjIgIGMxLjYwNywxLjMyOSw0Ljk1MSw0LjEyNyw0Ljk1MSw5LjQ0OWMwLDUuMTc4LTIuOTQxLDcuNjE1LTUuODU2LDkuOTI3Yy0wLjkzLDAuOTA0LTEuOTYsMS44ODUtMS45NiwzLjQxOCAgYzAsMS41MzIsMS4wMywyLjM4OCwxLjgxLDMuMDE2bDIuNTEzLDEuOTZjMy4wOTIsMi41NjQsNS44ODEsNC45NTEsNS44ODEsOS43NzdjMCwzLjE4Mi0xLjQ4NCw2LjM3Ni00LjM3OSw4LjgyNiAgYy0xLjU1NywwLjI1NS0zLjE1MywwLjM4OC00Ljc4MSwwLjM5M2MyLjkzOC0xLjI4OSw0LjQ2LTMuNjQ2LDQuNDYtNi40OGMwLTMuNTY4LTIuMjg3LTUuNDUzLTcuNjE1LTkuMjQ4ICBjLTAuNTUzLTAuMDUxLTAuOTA1LTAuMDUxLTEuNjA4LTAuMDUxYy0wLjYyOCwwLTQuMzk4LDAuMTI3LTcuMzM4LDEuMTA2Yy0xLjUzMywwLjU1My02LjAwNiwyLjIzNy02LjAwNiw3LjIxMyAgYzAsMC41NDEsMC4wNTgsMS4wNjUsMC4xNywxLjU2OUM3Ljc3NSw1Mi42NDUsMyw0My44OCwzLDM0eiBNNjAuNzMsMjIuNTMyTDYwLjczLDIyLjUzMmMwLjQ0LDEuMDYzLDAuODIxLDIuMTU5LDEuMTM5LDMuMjgxICBDNjEuNTUyLDI0LjY5MSw2MS4xNzEsMjMuNTk2LDYwLjczLDIyLjUzMkw2MC43MywyMi41MzJMNjAuNzMsMjIuNTMyTDYwLjczLDIyLjUzMkw2MC43MywyMi41MzJMNjAuNzMsMjIuNTMyTDYwLjczLDIyLjUzMnogTTMzLDY0ICBDMTYuNDMyLDY0LDMsNTAuNTY4LDMsMzRDMywxNy40MzEsMTYuNDMyLDQsMzMsNGMxMi41MDcsMCwyMy4yMjcsNy42NTMsMjcuNzMsMTguNTMyaC01Ljk2NnYtNy44MTRoLTMuMzQ5djcuODE0aC03LjgxNHYzLjI4MSAgaDcuODE0djcuODgyaDMuMzQ5di03Ljg4Mmg3LjEwNEM2Mi42MDUsMjguNDE1LDYzLDMxLjE2Miw2MywzNEM2Myw1MC41NjgsNDkuNTY4LDY0LDMzLDY0eiIgc3R5bGU9ImZpbGwtcnVsZTpldmVub2RkO2NsaXAtcnVsZTpldmVub2RkO2ZpbGw6I0Q4RDlEODsiLz48L3N2Zz4=") no-repeat;
+}
+
+@media (min-width: 48em) {
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 19rem;
+        text-align: left;
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 1rem;
+    }
+
+}
+
+@media (min-width: 112em) {
+    .sidebar {
+        width: 19rem;
+        text-align: left;
+    }
+}
+
+@media (min-width: 120em) {
+    .sidebar {
+        width: 24rem;
+    }
+
+    .sidebar h1, nav, p {
+        margin-left: 1rem;
+    }
+
+    .footer {
+        width: 22rem;
+        text-align: center;
+    }
+
+    .svg-icon {
+        margin: 0 0.5rem;
+    }
+}
+
+/* Sidebar links */
+.sidebar a {
+    color: #fff;
+}
+
+/* About section */
+.sidebar-about h1 {
+    color: #fff;
+    margin-top: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 3.25rem;
+}
+
+/* Sidebar nav */
+.sidebar-nav {
+    margin-bottom: 1rem;
+}
+
+.sidebar-nav-item {
+    display: block;
+    line-height: 1.75;
+}
+
+a.sidebar-nav-item:hover,
+a.sidebar-nav-item:focus {
+    text-decoration: underline;
+}
+
+.sidebar-nav-item.active {
+    font-weight: bold;
+}
+
+/* Sticky sidebar
+ *
+ * Add the `sidebar-sticky` class to the sidebar's container to affix it the
+ * contents to the bottom of the sidebar in tablets and up.
+ */
+
+@media (min-width: 48em) {
+    .sidebar-sticky {
+        position: absolute;
+        right: 1rem;
+        bottom: 1rem;
+        left: 1rem;
+    }
+}
+
+/* Container
+ *
+ * Align the contents of the site above the proper threshold with some margin-fu
+ * with a 25%-wide `.sidebar`.
+ */
+
+.content {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+@media (min-width: 48em) {
+    .content {
+        max-width: 38rem;
+        margin-left: 20rem;
+        margin-right: 2rem;
+    }
+}
+
+@media (min-width: 64em) {
+    .content {
+        margin-left: 22rem;
+        margin-right: 4rem;
+    }
+}
+
+@media (min-width: 112em) {
+    .content {
+        max-width: 64rem;
+    }
+}
+
+@media (min-width: 120em) {
+    .content {
+        margin-left: 28rem;
+        margin-right: 4rem;
+    }
+}
+
+/*
+ * Reverse layout
+ *
+ * Flip the orientation of the page by placing the `.sidebar` on the right.
+ */
+
+@media (min-width: 48em) {
+    .layout-reverse .sidebar {
+        left: auto;
+        right: 0;
+    }
+
+    .layout-reverse .content {
+        margin-left: 2rem;
+        margin-right: 20rem;
+    }
+}
+
+@media (min-width: 64em) {
+    .layout-reverse .content {
+        margin-left: 4rem;
+        margin-right: 22rem;
+    }
+}
+
+.twitter-post {
+    padding-top: 1em;
+}
+
+/*
+ * Themes
+ *
+ * As of v1.1, Hyde includes optional themes to color the sidebar and links
+ * within blog posts. To use, add the class of your choosing to the `body`.
+ */
+
+/* Base16 (http://chriskempson.github.io/base16/#default) */
+
+/* Red */
+.theme-base-08 .sidebar {
+    background-color: #ac4142;
+}
+
+.theme-base-08 .content a,
+.theme-base-08 .related-posts li a:hover {
+    color: #ac4142;
+}
+
+/* Orange */
+.theme-base-09 .sidebar {
+    background-color: #d28445;
+}
+
+.theme-base-09 .content a,
+.theme-base-09 .related-posts li a:hover {
+    color: #d28445;
+}
+
+/* Yellow */
+.theme-base-0a .sidebar {
+    background-color: #f4bf75;
+}
+
+.theme-base-0a .content a,
+.theme-base-0a .related-posts li a:hover {
+    color: #f4bf75;
+}
+
+/* Green */
+.theme-base-0b .sidebar {
+    background-color: #90a959;
+}
+
+.theme-base-0b .content a,
+.theme-base-0b .related-posts li a:hover {
+    color: #90a959;
+}
+
+/* Cyan */
+.theme-base-0c .sidebar {
+    background-color: #75b5aa;
+}
+
+.theme-base-0c .content a,
+.theme-base-0c .related-posts li a:hover {
+    color: #75b5aa;
+}
+
+/* Blue */
+.theme-base-0d .sidebar {
+    background-color: #6a9fb5;
+}
+
+.theme-base-0d .content a,
+.theme-base-0d .related-posts li a:hover {
+    color: #6a9fb5;
+}
+
+/* Magenta */
+.theme-base-0e .sidebar {
+    background-color: #aa759f;
+}
+
+.theme-base-0e .content a,
+.theme-base-0e .related-posts li a:hover {
+    color: #aa759f;
+}
+
+/* Brown */
+.theme-base-0f .sidebar {
+    background-color: #8f5536;
+}
+
+.theme-base-0f .content a,
+.theme-base-0f .related-posts li a:hover {
+    color: #8f5536;
+}
