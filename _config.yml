@@ -58,9 +58,11 @@ version:          2.1.0
 github:
   repo:           https://github.com/mmbs
 
+ # This will require each of these gems automatically.
 gems:
   [jekyll-paginate]
- # This will require each of these gems automatically.
+  - jemoji
+
 
  # Exclude these files from your production _site
 exclude:
