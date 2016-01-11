@@ -61,7 +61,7 @@ github:
  # This will require each of these gems automatically.
 gems:
   [jekyll-paginate]
-  - jemoji
+  [jemoji]
 
 
  # Exclude these files from your production _site
