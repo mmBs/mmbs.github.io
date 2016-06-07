@@ -1,72 +1,112 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# Site settings
+title:       mmBs dev blog
+email:       mmbialas@gmail.com
+author:      Michal Bialas
+description: "mmBs blog just for reminding Android stuff, but not only :)"
+baseurl:     ""
+url:         'https://mmbs.github.io'
+date_format: "%b %-d, %Y"
 
-# Permalinks
-
-
-# Setup
-title:            mmBs
-tagline:          'Devs Blog'
-description:      'mmBs Blog'
-url:              'https://mmbs.github.io'
-baseurl:          /
-
-
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar:
-
-#
-# Flags below are optional
-#
-
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email:
-  facebook:
-  flickr:
-  github: mmbs
-  instagram:
-  linkedin: mmbialas
-  pinterest:
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: mmbialas
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: u/0/111871061538679318016 # anything in your profile username that comes after plus.google.com/
-
-
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus:
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+# Google services
+google_verification:
+# Use either direct GA implementation or set up GTM account
+# - using both will skew your data (leave blank to not use at all)
 google_analytics: UA-71320286-1
+google_tag_manager:
+# Bing services
+bing_verification:
 
+# Optional features
+animated:             true
+show_related_posts:   false
+show_post_footers:    true
+show_social_icons:    true
+ajaxify_contact_form: false
+enable_mathjax: false
+extended_fonts: false
+enable_anchorjs: false
 
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname: realexamples
 
-author:
-  name:           'Michal Bialas'
-  url:            https://twitter.com/mmbialas
+# Facebook Comments plugin
+# (leave blank to disable Facebook Comments, otherwise set it to true)
+facebook_comments:
+facebook_appid:
+facebook_comments_number: 10
 
-paginate:         4
+# Social icons
+github_username: mmBs
+bitbucket_username:
+stackoverflow_id: 2065587/mmbs
+twitter_username: mmbialas
+skype_username:
+steam_nickname:
+google_plus_id: u/0/111871061538679318016
+linkedin_username: mmbialas
+angellist_username: mmbialas
+medium_id: mmbialas
+bitcoin_url:
+paypal_url:
+flattr_button:
 
-# Custom vars
-version:          2.1.0
+# Post sharing icons
+show_sharing_icons: false
+# Change to 'true' to enable individual icons
+share_facebook: false
+share_twitter: false
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: false
 
-github:
-  repo:           https://github.com/mmbs
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
+  share_buttons:
+    text:         'Share this post!'
+    facebook:     'Share on Facebook'
+    twitter:      'Share on Twitter'
+    googleplus:   'Share on Google+'
+    linkedin:     'Share on LinkedIn'
+    digg:         'Share on Digg'
+    tumblr:       'Share on Tumblr'
+    reddit:       'Share on Reddit'
+    stumbleupon:  'Share on StumbleUpon'
+    hackernews:   'Share on Hacker News'
+  post:
+    updated:        'Updated'
+    minute_read:    'minute read'
+    related_posts:  'Related Posts'
+  index:
+    coming_soon: 'Coming soon...'
+  contact:
+    email:    'Email Address'
+    content:  'What would you like to say?'
+    subject:  'New submission!'
+    submit:   'Say Hello'
+    ajax:
+      sending:  'sending..'
+      sent:     'Message sent!'
+      error:    'Error!'
+  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
+  og_locale: 'en_US'
 
- # This will require each of these gems automatically.
+# Build settings
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+paginate:     4
+sass:
+  compressed: true
 gems:
-  [jekyll-paginate]
-
-
- # Exclude these files from your production _site
-exclude:
-    - Gemfile
-    - Gemfile.lock
-    - LICENSE
-    - README.md
-    - CNAME
+  - jekyll-paginate
+  - jekyll-sitemap
+# https://github.com/jekyll/jekyll/issues/2938
+exclude: [vendor]
