@@ -46,13 +46,14 @@ or **wget**: `sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master
 8. That's it, you're done! :)
 
 ## Explanation
-You may ask, why I need to install zsh and use it instead of bash. In fact, you don't need to. But zsh gives you a lot of improvements out of the box:
+You may ask, why I need to install zsh and use it instead of bash. In fact, you don't need to. But zsh gives you a lot of improvements out of the box:  
+
 * Great prompt,
 * amazingly quick and smart auto completion,
 * spelling correction,
 * support of many great plugins (especially for git),
-* oh-my-zsh
-* many many more :)
+* a really quick configuration with oh-my-zsh,
+* many many more.
 
 If you want to go deeper into discussion or gather more information about **oh-my-zsh**, you can visit [Quora](https://www.quora.com/What-are-the-advantages-and-disadvantages-of-using-zsh-instead-of-bash-or-other-shells). What is more, [here](https://www.quora.com/What-is-the-difference-between-bash-and-zsh) you can find a comparison between bash and zsh.
 
