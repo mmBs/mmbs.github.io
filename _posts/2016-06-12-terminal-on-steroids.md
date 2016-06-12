@@ -57,7 +57,7 @@ You may ask, why I need to install zsh and use it instead of bash? In fact, you 
 
 If you want to go deeper into discussion or gather more information about **oh-my-zsh**, you can visit [Quora](https://www.quora.com/What-are-the-advantages-and-disadvantages-of-using-zsh-instead-of-bash-or-other-shells). What is more, [here](https://www.quora.com/What-is-the-difference-between-bash-and-zsh) you can find a comparison between bash and zsh.
 
-I hope the article is helpful and please, please let me know about your thoughts.
+I hope the article is helpful. Please let me know about your thoughts.
 
 ## Useful links
 1. [http://ohmyz.sh/](http://ohmyz.sh/)
