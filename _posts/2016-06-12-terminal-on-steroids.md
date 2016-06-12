@@ -15,7 +15,7 @@ This is what I achieved so far:
 
 ![My Terminal](/images/2016-06-12-terminal.png)
 
-I would like to keep this post as short and easy as possible, so please find
+I would like to keep this post as simple as possible, so please find
 all steps you need to take below.
 
 ## Manual
@@ -46,7 +46,7 @@ or **wget**: `sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master
 8. That's it, you're done! :)
 
 ## Explanation
-You may ask, why I need to install zsh and use it instead of bash. In fact, you don't need to. But zsh gives you a lot of improvements out of the box:  
+You may ask, why I need to install zsh and use it instead of bash? In fact, you don't need to. But zsh gives you a lot of improvements out of the box:  
 
 * Great prompt,
 * amazingly quick and smart auto completion,
