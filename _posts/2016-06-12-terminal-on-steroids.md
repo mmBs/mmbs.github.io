@@ -66,4 +66,4 @@ I hope the article is helpful. Please let me know about your thoughts.
 4. [http://brew.sh/](http://brew.sh/)
 
 ---
-[^1]: All steps come from [Rick Cogley's blog](http://rick.cogley.info/post/use-homebrew-zsh-instead-of-the-osx-default/)
+[^1]: These steps come from [Rick Cogley's blog](http://rick.cogley.info/post/use-homebrew-zsh-instead-of-the-osx-default/)
