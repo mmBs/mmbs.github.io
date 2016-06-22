@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Helpful ADB commands
-date:       2016-06-23
+date:       2016-06-23 00:03:21
 summary:    A post just to memorise many useful ADB commands.
 categories: tools adb
 ---
