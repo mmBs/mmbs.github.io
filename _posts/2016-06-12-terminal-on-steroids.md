@@ -21,7 +21,7 @@ all steps you need to take below.
 ## Manual
 
 1. Install the latest version of [iTerm2 terminal](https://www.iterm2.com/).
-2. Check if you have zsh already installed on your machine: `zsh --verison`.
+2. Check if you have zsh already installed on your machine: `zsh --version`.
 * **If no**, install zsh using e.g. `homebrew`,   
 **if yes**, you need to check your version and update to the newest one.  
 How to do that? [This tutorial](http://rick.cogley.info/post/use-homebrew-zsh-instead-of-the-osx-default/)
