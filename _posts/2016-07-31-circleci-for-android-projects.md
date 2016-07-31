@@ -22,7 +22,7 @@ What really matters to me is a fact that you can use it for **free** (according 
 4. You will see a list of available projects and a **Build project** button on the right side of the list.
 5. You can click on it to check a process of building the app, but unfortunately the project of your choice won't build.
 6. Why? Because You need to add **circle.yml** config file to your project (put it to the git's repo root folder of your project).
-7. Right now you should be able to build your project. Please remember that you need adapt the file to your needs (Build Tools version, SDK version etc.). Go through the explanation posted below. After that you should understand what happens in the file and you will be good to set up your own CI for Android projects. Good luck :+1:
+7. Right now you should be able to build your project. Please remember that you need to adapt the file to your needs (Build Tools version, SDK version etc.). Go through the explanation posted below. After that you should understand what happens in the file and you will be good to set up your own CI for Android projects. Good luck :+1:
 
 ## circle.yml explanation for Android developers
 
