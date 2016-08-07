@@ -12,7 +12,7 @@ Hey!
 
 My name is Michal Bialas. I am London based **Android Developer** and **Professional Scrum Master** with a passion for software engineering, agile methodologies, Android development and all great libraries and frameworks.
 
-Whenever I have a moment, I absorb the novelties of the world of modern mobile and web design and try to craft something myself or facilitate other's work.
+Whenever I have a moment, I absorb the novelties of the world of modern mobile technology and try to craft something myself or facilitate other's work.
 
 I am also passionate about UX/UI patterns for mobile and I treat it as a hobby and time for relaxation from casual duties.
 
