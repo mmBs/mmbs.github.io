@@ -86,7 +86,7 @@ test:
 
 ```
 
-you can find more about testing Android applications in the [CircleCI official documentation](https://circleci.com/docs/android/).
+You can find more about testing Android applications in the [CircleCI official documentation](https://circleci.com/docs/android/).
 
 I hope you found this short post useful! Let me know your thoughts.
 
