@@ -2,7 +2,7 @@
 layout:     post
 title:      CircleCI for Android projects
 date:       2016-07-31
-summary:    A quick tutorial how to easily set up an Android project for CircleCi Continuous Integration
+summary:    A quick tutorial how to easily set up an Android project for CircleCI Continuous Integration
 categories: tools ci
 ---
 
