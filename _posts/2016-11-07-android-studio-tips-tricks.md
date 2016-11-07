@@ -1,12 +1,12 @@
 ---
 layout:     post
-title:      50 Android Studio Tips, Tricks & Resources you should be familiar with.
+title:      50 Android Studio Tips, Tricks & Resources you should be familiar with, as an Android Developer
 date:       2016-11-07
 summary:    This is a cheatsheet of useful Android Studio tips, tricks, shortcuts and resources.
 categories: tools ide
 ---
 
-The reason of that article is to list helpful tips, tricks, shortcuts and resources for Android Studio
+The reason of this article, is to list helpful tips, tricks, shortcuts and resources for Android Studio
 to improve your overall efficiency and performance. There are obviously many many more optimizations, shortcuts etc.,
 but for sake of keeping this article short, I limited it to a sum of 50 points. Hope you will enjoy it!
 
@@ -31,13 +31,13 @@ but for sake of keeping this article short, I limited it to a sum of 50 points. 
 
 
 2. Prevent Android Studio Logcat from clearing the log for the current application when it crashes.  
-    To do that you need to go to `Android Monitor` panel and choose `Edit filter configuration` on the right side dropdown.
+    To do that you need to go to the `Android Monitor` panel and choose `Edit filter configuration` on the right side dropdown.
 
     ![Preserving Logcat](/images/logcat_save.gif)
 
 3. Apply a proper code style to your IDE (IntelliJ / Android Studio).
     Go to `Preferences --> Code Style --> Java` and in a `Scheme` dropdown you can choose your code style (or set up a new one).
-    2 styles which are worth to mention:
+    2 styles which are especially worth to mention:
     - [Square Java Code Styles - with Android](https://github.com/square/java-code-styles)
     - [Google Java Code Style](https://github.com/google/styleguide/blob/gh-pages/intellij-java-google-style.xml). You can import the theme as shown on the gif below:
 
@@ -134,7 +134,7 @@ but for sake of keeping this article short, I limited it to a sum of 50 points. 
 16. Auto-indent lines: `control` + `option` + `i` (Windows / Linux: `ctrl` + `alt` + `i`).
 
 17. Implement methods: `control` + `i` (Windows / Linux: `ctrl` + `i`).  
-    Let's say you implement an interface. Then, you can quickly import all methods provided by that interface just by clicking this shortcut.
+    Let's say you implement an interface. Then, you can quickly import all methods provided by that interface, just by clicking this shortcut.
 
 18. Smart code completion (filters the list of methods and variables by expected type): `control` + `shift` + `space` (Windows / Linux:	`ctrl` + `shift` + `space`).
 
