@@ -185,6 +185,8 @@ but for sake of keeping this article short, I limited it to a sum of 50 points. 
 10. [Debug Your App with Android Studio](https://developer.android.com/studio/debug/index.html)
 11. [What are some of your must-have plugins for - Reddit discussion](https://www.reddit.com/r/androiddev/comments/3ktqyb/what_are_some_of_your_musthave_plugins_for/)
 
+That’s it! Please let me know about your useful tips & tricks or resources.
+
 ---
 [^1]: [IntelliJ Idea Viewing Modes](https://www.jetbrains.com/help/idea/2016.2/intellij-idea-viewing-modes.html)
 [^2]: [Cutting, Copying and Pasting in IntelliJ IDEA](https://www.jetbrains.com/help/idea/2016.2/cutting-copying-and-pasting.html)
