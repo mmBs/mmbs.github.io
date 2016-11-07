@@ -30,7 +30,7 @@ but for sake of keeping this article short, I limited it to a sum of 50 points. 
     Warning | `#FF9800`
 
 
-2. Prevent Android Studio Logcat from clearing the log for the current app when it crashes.  
+2. Prevent Android Studio Logcat from clearing the log for the current application when it crashes.  
     To do that you need to go to `Android Monitor` panel and choose `Edit filter configuration` on the right side dropdown.
 
     ![Preserving Logcat](/images/logcat_save.gif)
@@ -51,7 +51,7 @@ but for sake of keeping this article short, I limited it to a sum of 50 points. 
 
     ![Split screen view turn on](/images/split_screen_turn_on.png)
 
-    But to be as efficient as possible we need to set up a custom keyboard's shortcut. To do that go to `Preferences --> Keymap` and search for `Split Vertically`. Then open a context menu and click and add a keyboard shortcut. In my case, for vertical split view I added `control` + `alt` + `v`. It is shown on a gif below. You can define the shortcut for a horizontal split view as well.
+    But to be as efficient as possible we need to set up a custom keyboard's shortcut. To do that go to `Preferences --> Keymap` and search for `Split Vertically`. Then open a context menu and click `Add Keyboard Shortcut`. In my case, for vertical split view I added `control` + `alt` + `v`. It is shown on a gif below. You can define the shortcut for a horizontal split view as well.
 
     ![Split screen view keyboard shortcut](/images/split_view.gif)
 
@@ -78,8 +78,9 @@ but for sake of keeping this article short, I limited it to a sum of 50 points. 
 
 ## Shortcuts and helpful commands
 
-0. The best and the most helpful command **Search for command**: `cmd` + `shift` +  `a` (Windows / Linux: `ctrl` + `shift` + `a`).
-Let's say you want to close current tab and you don't know how. You just type: `close` and you'll get a proper shortcut / command :smile:
+0. The best and the most helpful command **Search for command**: `cmd` + `shift` +  `a` (Windows / Linux: `ctrl` + `shift` + `a`).  
+
+    Let's say you want to close current tab and you don't know how. You just type: `close` and you will get a proper shortcut / command.
 
 1. Choose from the last copy / pastes (manage your clipboard): `cmd` + `shift` + `v`. By default there are 5 last copy/paste items.
 
@@ -91,8 +92,7 @@ Let's say you want to close current tab and you don't know how. You just type: `
 
     ![Multicursor](/images/ctrlg.gif)
 
-    A [detailed article](https://android.jlelse.eu/ctrl-g-d94c88cd4475#.ed3x7e91n) about this feature is provided by Bartosz Lipinski on Medium.
-    Highly recommended!
+    A [detailed article](https://android.jlelse.eu/ctrl-g-d94c88cd4475#.ed3x7e91n) about this feature is provided by Bartosz Lipinski on Medium. Highly recommended!
 
 3. Open a class: `cmd` + `o` (Windows / Linux: `ctrl` + `n`).
 
