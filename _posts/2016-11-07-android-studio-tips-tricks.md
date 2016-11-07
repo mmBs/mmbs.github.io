@@ -101,14 +101,14 @@ but for sake of keeping this article short, I limited it to a sum of 50 points. 
 
 5. Open symbol: `cmd` + `option` + `o` (Windows / Linux: `alt` + `shift` + `n`).
 
-6. Go to implementation: `cmd` + `option` + `b` (Windows / Linux: `ctrl` + `shift` + `b`).  
+6. Go to implementation: `cmd` + `option` + `b` (Windows / Linux: `ctrl` + `alt` + `b`).  
     Let's say you have an interface. By clicking on the interface name
     and then clicking the `Go to implementation` shortcut, you will be redirected to classes which implement that interface.
 
 7. Go to declaration: `cmd` + `b` (Windows / Linux: `ctrl` + `b`).  
     It allows you to quickly check and go to a declaration of a class, method or a variable.
 
-8. Go to type declaration: `control` + `shift` + `b` (Windows / Linux: `control` + `shift` + `b`).  
+8. Go to type declaration: `control` + `shift` + `b` (Windows / Linux: `ctrl` + `shift` + `b`).  
     Let's say you defined:
 
         Employee employee = new Employee("Michal");
@@ -116,20 +116,20 @@ but for sake of keeping this article short, I limited it to a sum of 50 points. 
     When your caret is on `employee` and you click the shortcut, you will be redirected to the `Employee` class.
 
 9. Go to super: `cmd` + `u` (Windows / Linux: `ctrl` + `u`).  
-    Let's say you override some method. When your caret in on the method's name, and you click `Goto super` shortcut,
+    For instance, you override some method. When your caret in on the method's name and you click `Go to super` shortcut,
     you will be redirected to the parent method.
 
-10. Move between tabs: `cmd` + `shift` + `[` (move left) or `cmd` + `shift` + `]` (move right).
+10. Move between tabs: `cmd` + `shift` + `[` (move left) or `cmd` + `shift` + `]` (move right) (Windows / Linux: `alt` + &larr; / &rarr;).
 
-11. Move between Design / Text tabs in layout's view: `control` + `shift` + &larr; or `control` + `shift` + &rarr;
+11. Move between Design / Text tabs in layout's view: `control` + `shift` + &larr; / &rarr; (Windows / Linux: `alt` + `shift` + &larr; / &rarr;)
 
-12. Close a current tab: `cmd` + 'w' (Windows / Linux: `ctrl` + `shift` + `a`)
+12. Close a current tab: `cmd` + `w` (Windows / Linux: `ctrl` + `shift` + `a`)
 
-13. Hide all Windows / Linux: `cmd` + `shift` + `F12` (Windows / Linux: `ctrl` + `shift` + `F12`).
+13. Hide all windows: `cmd` + `shift` + `F12` (Windows / Linux: `ctrl` + `shift` + `F12`).
 
 14. Minimize Android Studio instance: `cmd` + `m` (Windows / Linux: `ctrl` + `m`).
 
-15. Format your code `cmd` + `option` + `l` (Windows / Linux: `ctrl` + `alt` + `l`).
+15. Format your code: `cmd` + `option` + `l` (Windows / Linux: `ctrl` + `alt` + `l`).
 
 16. Auto-indent lines: `control` + `option` + `i` (Windows / Linux: `ctrl` + `alt` + `i`).
 
@@ -142,7 +142,7 @@ but for sake of keeping this article short, I limited it to a sum of 50 points. 
 
 20. Find and replace: `cmd` + `r` (Windows / Linux: `ctrl` + `r`).
 
-21. Move hardcoded strings to resources: `option` + `return` (Windows / Linux: `alt` + `enter`). The shortuct must be used when a caret is on a text. Check the gif below:
+21. Move hardcoded strings to resources: `option` + `return` (Windows / Linux: `alt` + `enter`). The shortcut must be used when a caret is on a text. Check the gif below:
 
     ![alenter](/images/altenter.gif)
 
