@@ -37,7 +37,7 @@ but for sake of keeping this article short, I limited it to a sum of 50 points. 
 
 3. Apply a proper code style to your IDE (IntelliJ / Android Studio).
     Go to `Preferences --> Code Style --> Java` and in a `Scheme` dropdown you can choose your code style (or set up a new one).
-    2 styles which are worth to mention are:
+    2 styles which are worth to mention:
     - [Square Java Code Styles - with Android](https://github.com/square/java-code-styles)
     - [Google Java Code Style](https://github.com/google/styleguide/blob/gh-pages/intellij-java-google-style.xml). You can import the theme as shown on the gif below:
 
@@ -82,13 +82,14 @@ but for sake of keeping this article short, I limited it to a sum of 50 points. 
 
     Let's say you want to close current tab and you don't know how. You just type: `close` and you will get a proper shortcut / command.
 
-1. Choose from the last copy / pastes (manage your clipboard): `cmd` + `shift` + `v`. By default there are 5 last copy/paste items.
+1. Choose from the last copy / pastes (manage your clipboard): `cmd` + `shift` + `v` (Windows / Linux: `ctrl` + `shift` + `v`).   
+    By default there are 5 last copy/paste items.
 
     ![Choose Content to Paste](/images/content_to_paste.png)
 
     > The depth of the Clipboard stack is configured in the Limits section on the Editor page of the Settings dialog box. When the specified number is exceeded, the oldest entry is removed from the list.[^2]
 
-2. Enable multicursor feature: `control` + `g` (`alt` + `j` for Windows / Linux & Linux).
+2. Enable multicursor feature: `control` + `g` (`alt` + `j` for Windows / Linux).
 
     ![Multicursor](/images/ctrlg.gif)
 
@@ -102,7 +103,7 @@ but for sake of keeping this article short, I limited it to a sum of 50 points. 
 
 6. Go to implementation: `cmd` + `option` + `b` (Windows / Linux: `ctrl` + `shift` + `b`).  
     Let's say you have an interface. By clicking on the interface name
-    and then clicking the `Goto implementation` shortcut, you will be redirected to classes which implement that interface.
+    and then clicking the `Go to implementation` shortcut, you will be redirected to classes which implement that interface.
 
 7. Go to declaration: `cmd` + `b` (Windows / Linux: `ctrl` + `b`).  
     It allows you to quickly check and go to a declaration of a class, method or a variable.
@@ -176,7 +177,7 @@ but for sake of keeping this article short, I limited it to a sum of 50 points. 
 2. [Keyboard Shortcuts Reference](https://developer.android.com/studio/intro/keyboard-shortcuts.html)
 3. [(About) 10 Things You (Probably) Didn’t Know You Could do in Android Studio by Reto Meier](https://medium.com/google-developers/about-10-things-you-probably-didn-t-know-you-could-do-in-android-studio-de231071b375#.toxstt9em)
 4. [Mouseless Driven Development by Hadi Hariri](https://vimeo.com/98922030)
-5. [Android Studio Like a Bossby Philippe Breault](https://realm.io/news/360andev-philippe-breault-android-studio-ide-like-boss-structural-search-refactoring-java/)
+5. [Android Studio Like a Boss by Philippe Breault](https://realm.io/news/360andev-philippe-breault-android-studio-ide-like-boss-structural-search-refactoring-java/)
 6. [Android Studio for Experts (Android Dev Summit 2015)](https://www.youtube.com/watch?v=Y2GC6P5hPeA)
 7. [Android Studio Tips and Tricks by Michael Evans](http://michaelevans.org/blog/2016/01/06/android-studio-tips-and-tricks/)
 8. [Meet Android Studio](https://developer.android.com/studio/intro/index.html)
