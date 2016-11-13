@@ -121,9 +121,9 @@ but for sake of keeping this article short, I limited it to a sum of 50 points. 
 
 10. Move between tabs: `cmd` + `shift` + `[` (move left) or `cmd` + `shift` + `]` (move right) (Windows / Linux: `alt` + &larr; / &rarr;).
 
-11. Move between Design / Text tabs in layout's view: `control` + `shift` + &larr; / &rarr; (Windows / Linux: `alt` + `shift` + &larr; / &rarr;)
+11. Move between Design / Text tabs in layout's view: `control` + `shift` + &larr; / &rarr; (Windows / Linux: `alt` + `shift` + &larr; / &rarr;).
 
-12. Close a current tab: `cmd` + `w` (Windows / Linux: `ctrl` + `shift` + `a`)
+12. Close a current tab: `cmd` + `w` (Windows / Linux: `ctrl` + `F4`).
 
 13. Hide all windows: `cmd` + `shift` + `F12` (Windows / Linux: `ctrl` + `shift` + `F12`).
 
