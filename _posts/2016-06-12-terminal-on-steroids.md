@@ -59,6 +59,8 @@ If you want to go deeper into discussion or gather more information about **oh-m
 
 I hope the article is helpful. Please let me know about your thoughts.
 
+*Update Nov 12, 2016:* On the top of my article you can use great tips from [Mastering the Terminal side of Android development](https://medium.com/@cesarmcferreira/mastering-the-terminal-side-of-android-development-e7520466c521#.5ofwhpzhx).
+
 ## Useful links
 1. [http://ohmyz.sh/](http://ohmyz.sh/)
 2. [https://github.com/robbyrussell/oh-my-zsh/](https://github.com/robbyrussell/oh-my-zsh/)
