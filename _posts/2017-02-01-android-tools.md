@@ -27,7 +27,7 @@ It is completely free and allows you to:
 
    ![AndroidToolPreferences](/images/2017/android_tools/androidtool_preferences.png)
 
-   What is really important to me, it can also **create a gif** for you and mp4 format.
+   What is really important to me, it can also **create a gif** for you, besides mp4 format.
    You can set the quality of videos and gifs and adapt **Status Bar** to the needs of the video or screenshot.
 
    The only disadvantage is that the **Android tool is available only for OSX / MacOS**.
@@ -83,10 +83,10 @@ you a possibility, to operate your physical device from your desktop.
     * Compact layout,
     * HTTP requests with file upload support,
     * formatted API responses for JSON and XML,
-    * HATEOS support,
+    * HATEOAS support,
     * image previews,
     * request history,
-    * basic Auth and OAuth 1.0 helpers,
+    * basic Auth and OAuth 1.0 / 2.0 helpers,
     * autocomplete for URL and header values,
     * key/value editors for adding parameters or header values. Works for URL parameters too,
     * using environment variables to easily shift between settings. Great for testing production, staging or local setups,
@@ -115,13 +115,14 @@ you a possibility, to operate your physical device from your desktop.
     ![SequelPro](/images/2017/android_tools/sequel_pro.png)
 
    Unfortunately, there is only OSX / MacOS version available for now. Still, [MySQL Workbench](https://www.mysql.com/products/workbench/) might be considered as a free Windows alternative.
+
 6. [JD-GUI](http://jd.benow.ca/) **[FREE]** -- it is a standalone graphical utility that displays Java source codes of `.class` files. You can browse the reconstructed source code and for instance, access to methods and fields. I always use it when I decompile Android apps.
 
     ![JD-GUI](/images/2017/android_tools/jd-gui.png)
 
     The tool is open-source and the code is available on [Github](https://github.com/java-decompiler). There are also 2 plugins to use with:
 
-     * [IntelliJ](https://plugins.jetbrains.com/idea/plugin/7100-java-decompiler-intellij-plugin) (last changes: 28 March2014),
+     * [IntelliJ](https://plugins.jetbrains.com/idea/plugin/7100-java-decompiler-intellij-plugin) (last changes: 28 March 2014),
      * [Eclipse](https://github.com/java-decompiler/jd-eclipse) (last changes: 23 April 2015).
 
 7. [Android Asset Studio](https://romannurik.github.io/AndroidAssetStudio/) **[FREE]** -- who didn't hear about Roman Nurik? His contributions to the Android world are just exceptional. One of them is Android Asset Studio which is
@@ -138,7 +139,7 @@ you a possibility, to operate your physical device from your desktop.
     * [Action bar / tab icon generator](https://romannurik.github.io/AndroidAssetStudio/icons-actionbar.html)
     * [Launcher icon animator](https://romannurik.github.io/AndroidIconAnimator/)
 
-8. [Material Colors for Mac](https://github.com/romannurik/MaterialColorsApp) -- another cool tool from Roman Nurik. This is a Material Colors palette viewer accessible from Menu Bar. You can download it from [here](https://github.com/romannurik/MaterialColorsApp/releases/download/v1.1.0/MaterialColors-1.1.0.zip). The only disadvantage is that, Windows users can not use it. You can check, how it works below:
+8. [Material Colors for Mac](https://github.com/romannurik/MaterialColorsApp) **[FREE]**-- another cool tool from Roman Nurik. This is a Material Colors palette viewer accessible from Menu Bar. You can download it from [here](https://github.com/romannurik/MaterialColorsApp/releases/download/v1.1.0/MaterialColors-1.1.0.zip). The only disadvantage is that, Windows users can not use it. You can check, how it works below:
 
     ![MaterialColors](/images/2017/android_tools/material-colors.png)
 
