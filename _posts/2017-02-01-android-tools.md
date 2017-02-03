@@ -72,7 +72,9 @@ you a possibility, to operate your physical device from your desktop.
 
       Unfortunately, every rose has its thorns and **Genymotion is an extra-paid solution** (just think about all these features, which I listed above). The [cheapest plan](https://www.genymotion.com/pricing-and-licensing/) costs 99€/year.
 
-      **A [FREE] alternative** is to use built-in [Android emulator](https://developer.android.com/studio/run/emulator.html). Since 2015 it works pretty well, as it uses Google Intel x86 images. I like its smoothness, intuitiveness and that it is well-integrated with Android Studio.  
+      Update 4th Feb 2017: **Genymotion is also available for free**, but for personal use. You can download it [here](https://www.genymotion.com/fun-zone/).
+
+      **Another [FREE] alternative** is to use built-in [Android emulator](https://developer.android.com/studio/run/emulator.html). Since 2015 it works pretty well, as it uses Google Intel x86 images. I like its smoothness, intuitiveness and that it is well-integrated with Android Studio.  
 
 4. [Postman](https://www.getpostman.com/) **[FREE/PAID]** -- this tools is just **awesome**. I use it for 3 years now, initially as a Google Chrome extension, then as a native app. Postman helps you to be as productive and efficient as possible, while working with APIs.
 
