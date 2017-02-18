@@ -7,12 +7,10 @@ categories: libraries android
 ---
 
 This is a list of 25 best Android libraries **released in January and February
-2017** which you may wish to try.
+2017**.  
+All of these are worth trying out — they are not in ranked order. Let’s get started!
 
 ![](https://cdn-images-1.medium.com/max/2000/1*3oNgt5C2JC5FucjUm2SPxg.jpeg)
-
-Even if the list is put in order, I don’t prioritise any of the items. Let’s
-start!
 
 1.  [Lottie](https://github.com/airbnb/lottie-android)  
     This is a library that parses [Adobe After Effects](http://www.adobe.com/products/aftereffects.html)
