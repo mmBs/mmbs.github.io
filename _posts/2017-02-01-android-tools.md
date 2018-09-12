@@ -32,15 +32,15 @@ It is completely free and allows you to:
 
    One of disadvantages is that the **Android tool is available only for OSX / MacOS.**
 
-Also, taking bug reports is quite limited. If you want to improve an experience of this action, especially for your users and product teams, you should consider some different tool. One of the best is [Instabug](https://instabug.com/) which offers lots of great tools, like e.g.
-  * In-App Feedback
-  * Screenshot Attachment
-  * Environment Snapshot
-  * In-App Surveys
-  * Feature Request
+  Also, taking bug reports is quite limited. If you want to improve an experience of this action, especially for your users and product teams, you should consider some different tool. One of the best is [Instabug](https://instabug.com/) which offers lots of great tools, like e.g.
+    * In-App Feedback
+    * Screenshot Attachment
+    * Environment Snapshot
+    * In-App Surveys
+    * Feature Request
 
-I think, it is really worthy to try it and pay small subscription price. Companies like SoundCloud, Samsung, PayPal, Lyft and Yahoo! can not be wrong.    
-What is also important, you have an access to the crash reporting console which can be easily a replacement to well-known [Crashlytics](https://fabric.io/kits/android/crashlytics) and this is a reason, why I recommend it.
+  I think, it is really worthy to try it and pay small subscription price. Companies like SoundCloud, Samsung, PayPal, Lyft and Yahoo! can not be wrong.    
+  What is also important, you have an access to the crash reporting console which can be easily a replacement to well-known [Crashlytics](https://fabric.io/kits/android/crashlytics) and this is a reason, why I recommend it.
 
 
 2. [Vysor](https://www.vysor.io/) **[FREE/PAID]** -- this is a Chrome app[^1], compatible with all operating systems. It gives
