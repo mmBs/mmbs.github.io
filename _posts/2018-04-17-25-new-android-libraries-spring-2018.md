@@ -295,6 +295,18 @@ WhatsNew automatically displays a short description of the new features (in a
 In the *README* you can check how to apply it. The project is released under MIT
 license.
 
+Using WhatsNew can really increase a user experience of your app. However, what takes
+it to the next level, is allowing your users to request new features. 
+The easiest and the quickest way to have this functionality in your app is to use
+[Instabug](https://instabug.com/feature-requests).
+This tool owns a single channel where all your users' feature requests are submitted from
+inside your app. You can add your ideas to the list and let your users vote for ideas
+submitted by others or added by you. Then you can prioritise your backlog or even offer
+a discussion board, where you can engage your users to ask for details and reply
+to questions and concerns.
+
+![](https://cdn-images-1.medium.com/max/1600/1*Mtw6Usb98UO2qK98XidrWw.png)
+
 ### 22. [ColoredShadowImageView](https://github.com/armcha/ColoredShadowImageView)
 
 This is a second library in that compilation which allows to create a beautiful

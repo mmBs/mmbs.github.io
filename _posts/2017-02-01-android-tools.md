@@ -30,7 +30,17 @@ It is completely free and allows you to:
    What is really important to me, it can also **create a gif** for you, besides mp4 format.
    You can set the quality of videos and gifs and adapt **Status Bar** to the needs of the video or screenshot.
 
-   The only disadvantage is that the **Android tool is available only for OSX / MacOS**.
+   One of disadvantages is that the **Android tool is available only for OSX / MacOS.**
+
+Also, taking bug reports is quite limited. If you want to improve an experience of this action, especially for your users and product teams, you should consider some different tool. One of the best is [Instabug](https://instabug.com/) which offers lots of great tools, like e.g.
+  * In-App Feedback
+  * Screenshot Attachment
+  * Environment Snapshot
+  * In-App Surveys
+  * Feature Request
+
+I think, it is really worthy to try it and pay small subscription price. Companies like SoundCloud, Samsung, PayPal, Lyft and Yahoo! can not be wrong.    
+What is also important, you have an access to the crash reporting console which can be easily a replacement to well-known [Crashlytics](https://fabric.io/kits/android/crashlytics) and this is a reason, why I recommend it.
 
 
 2. [Vysor](https://www.vysor.io/) **[FREE/PAID]** -- this is a Chrome app[^1], compatible with all operating systems. It gives
@@ -117,6 +127,8 @@ you a possibility, to operate your physical device from your desktop.
     ![SequelPro](/images/2017/android_tools/sequel_pro.png)
 
    Unfortunately, there is only OSX / MacOS version available for now. Still, [MySQL Workbench](https://www.mysql.com/products/workbench/) might be considered as a free Windows alternative.
+
+   If you use PostgreSQL, you can use PSequel, which provides a clean and simple interface to perform common PostgreSQL tasks and it is free.
 
 6. [JD-GUI](http://jd.benow.ca/) **[FREE]** -- it is a standalone graphical utility that displays Java source codes of `.class` files. You can browse the reconstructed source code and for instance, access to methods and fields. I always use it when I decompile Android apps.
 
