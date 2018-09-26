@@ -115,16 +115,14 @@ It offers a number out of the box features:
 The documentation is exceptional, with many examples. There is also a sample app
 available on
 [Github](https://github.com/CleverPumpkin/CrunchyCalendar/blob/master/sample/)
-and [Google
-Play](https://play.google.com/store/apps/details?id=ru.cleverpumpkin.calendar.sample).
+and [Google Play](https://play.google.com/store/apps/details?id=ru.cleverpumpkin.calendar.sample).
 
 This project is released under MIT license.
 
 ### 6. [InboxRecyclerView](https://github.com/saket/InboxRecyclerView)
 
 This is a library for building expandable descendant navigation, inspired by
-[Google
-Inbox](http://androidniceties.tumblr.com/post/100872004063/inbox-by-gmail-google-play-link)
+[Google Inbox](http://androidniceties.tumblr.com/post/100872004063/inbox-by-gmail-google-play-link)
 and [Reply](https://material.io/design/material-studies/reply.html).
 
 ![](https://cdn-images-1.medium.com/max/1600/1*W9O2EdGs3Eg29jefLDHAhw.gif)
@@ -215,8 +213,7 @@ StateAccessor<State>) -> Observable<Action>`).
 > RxRedux is (kind of) a replacement for RxJava’s `.scan()`[
 > operator](http://reactivex.io/documentation/operators/scan.html).
 
-*README* is really well-written and also enriched by [this
-article](https://freeletics.engineering/2018/08/16/rxredux.html).   
+*README* is really well-written and also enriched by [this article](https://freeletics.engineering/2018/08/16/rxredux.html).   
 This library has version 1.0.0 and it is released under Apache 2.0 license.
 
 ### 12. [Emoji Slider](https://github.com/bernaferrari/EmojiSlider)
@@ -271,8 +268,7 @@ is really detailed and definitely worthy to check. License: Apache 2.0.
 
 ### 16. [MVICore](https://github.com/badoo/MVICore)
 
-MVICore is a modern MVI framework from [Badoo
-Tech](https://medium.com/@BadooTech) featuring:
+MVICore is a modern MVI framework from [Badoo Tech](https://medium.com/@BadooTech) featuring:
 
 * 100% Kotlin: An easy way to implement your business features in a reactive way
 with unidirectional dataflow,
@@ -308,9 +304,7 @@ license. Written 100% in Kotlin.
 ### 18. [HtmlRecycler](https://github.com/m7mdra/HtmlRecycler)
 
 This is an interesting library which converts a simple HTML page into
-a`RecyclerView` of native Android widgets powered by [Jsoup
-library](https://jsoup.org/) and inspired by [Medium
-Textview](https://github.com/angebagui/medium-textview/).
+a`RecyclerView` of native Android widgets powered by [Jsoup library](https://jsoup.org/) and inspired by [Medium Textview](https://github.com/angebagui/medium-textview/).
 
 ![](https://cdn-images-1.medium.com/max/1600/1*Bzn3iJD2Egq0NYGVHWwcrw.gif)
 
@@ -319,8 +313,7 @@ to production code.
 The documentation is good and explains how to use the
 lib. It is released under Apache 2.0 license.
 
-### 19. [Android Clean Architecture Components
-Boilerplate](https://github.com/bufferapp/clean-architecture-koin-boilerplate)
+### 19. [Android Clean Architecture Components Boilerplate](https://github.com/bufferapp/clean-architecture-koin-boilerplate)
 
 I mentioned about this boilerplate many times but it is really good to follow
 [Buffer](https://medium.com/@buffer) tech team efforts. Currently they showcase
@@ -370,8 +363,7 @@ The diagram below shows some of available components.
 
 ![](https://cdn-images-1.medium.com/max/1600/1*GycIyNJDKasRNCiyKsExOA.png)
 
-The project contains [4 sample
-apps](https://github.com/mozilla-mobile/android-components/tree/master/samples)
+The project contains [4 sample apps](https://github.com/mozilla-mobile/android-components/tree/master/samples)
 which showcase, how to use various components. It has also a really good
 documentation and it is released under MPL 2.0 license.
 
@@ -382,8 +374,7 @@ Scanner) on Android (added in Android 9 Pie, API Level 28+).
 
 ![](https://cdn-images-1.medium.com/max/1600/1*X_ggbGnxGhOUpy3hTBmgYg.png)
 
-According to the [Google Android Developers
-Blog](https://android-developers.googleblog.com/2018/08/introducing-android-9-pie.html),
+According to the [Google Android Developers Blog](https://android-developers.googleblog.com/2018/08/introducing-android-9-pie.html),
 when
 
 > your app is drawing its own fingerprint auth dialogs, you should switch to using
@@ -486,8 +477,7 @@ a sample app as well as as really comprehensive documentation.
 
 This is a Retrofit inspired `WebSocket` client for Kotlin, Java, and Android
 from Tinder dev team. The documentation of this client is really comprehensive
-and also covered by [Taming WebSocket with
-Scarlet](https://tech.gotinder.com/taming-websocket-with-scarlet/) article.    
+and also covered by [Taming WebSocket with Scarlet](https://tech.gotinder.com/taming-websocket-with-scarlet/) article.    
 You can also check it usage by checking realtime Bitcoin price from [Gdax WebSocket Feed](https://docs.gdax.com/#websocket-feed) which is posted as a
 [demo app](https://github.com/Tinder/Scarlet/blob/master/demo/src/main/java/com/tinder/app).
 
