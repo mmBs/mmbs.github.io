@@ -6,8 +6,6 @@ summary:    A short list of great new tools and plugins for Android development.
 categories: tools android
 ---
 
-# Lucky 7 new tools and plugins for Android developers & designers
-
 When I was writing my last article about [30 summertime Android libraries](https://medium.com/@mmbialas/30-summertime-android-libraries-and-tools-which-you-dont-want-to-miss-in-2018-fab053d69503),
 I also got to know some nice new tools and plugins, which I find helpful during
 my work. I would like to share them with you too. I hope you’ll enjoy it! 🔧 🔨

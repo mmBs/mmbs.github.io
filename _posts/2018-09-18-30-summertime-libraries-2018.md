@@ -6,9 +6,6 @@ summary:    This is my newest unranked list of Android libraries, tools and proj
 categories: libraries android
 ---
 
-
-# 30 summertime Android libraries and tools which you don’t want to miss in 2018
-
 Summertime is ending (at least in the Northern Hemisphere) and during this time
 many great Android libraries and tools were developed and updated.    
 This is my newest unranked list of Android libraries, tools and projects which you may
