@@ -43,22 +43,17 @@ It is completely free and allows you to:
     What is also important, you have an access to the crash reporting console which can be easily a replacement to well-known [Crashlytics](https://fabric.io/kits/android/crashlytics) and this is a reason, why I recommend it.
 
 
-2. [Vysor](https://www.vysor.io/) **[FREE/PAID]** -- this is a Chrome app[^1], compatible with all operating systems. It gives
-you a possibility, to operate your physical device from your desktop.  
+2. [scrcpy](https://github.com/Genymobile/scrcpy) **[FREE]** — this application provides display and control of Android devices connected on USB (or over TCP/IP). It does not require any root access. It works on GNU/Linux, Windows and macOS.
+I use it daily, also on weekly demos and it always works super smoothly. I can recommend it for sure to everyone, especially it is 100% free.  
 
+    ![scrcpyimage](/images/2017/android_tools/scrcpy.jpg)
+    
+    [scrcpy](https://github.com/Genymobile/scrcpy) is an answer to [Vysor](https://www.vysor.io/) **[FREE/PAID]** which is a Chrome app[^1], compatible with all operating systems. It gives you a possibility, to operate your physical device from your desktop.
+    
     ![VysorMovie](/images/2017/android_tools/vysor_movie.gif)
 
-    As per above gif, you can use a mouse pointer to click and scroll in the device. Computer keyboard would also work.
-    There are two versions of the app:
-
-      * Free - it offers mirroring and controlling your Android device and taking screenshots.
-      * Pro - it gives you high quality mirroring, taking screen videos, fullscreen mode, going wireless and drag & drop functionality.
-
-    Honestly speaking, **combination of the Android Tool for Mac and Vysor Free, covers most of the cases of usage**. You can do a live demo,
-    you can take screen video and share it after, or record a gif. However, for sake of having a really good quality of streaming / mirroring,
-    I think it is worthy to go Pro, especially that it costs 1.99$/mo.
-
-    To sum up, **use these two apps and make your demo perfect!** It will make your stakeholders happy as well! :smile:
+    As per above gif, you can use a mouse pointer to click and scroll in the device. Computer keyboard would also work.  
+    Still, I mentioned Vysor only as a competitor. scrcpy fulfils my needs perfectly. But decision, which to use, I leave to you.
 
 3. [Genymotion](https://www.genymotion.com/) **[PAID]** -- I think everybody knows Genymotion. If not, this is a powerful Android emulator.
 
@@ -163,17 +158,17 @@ you a possibility, to operate your physical device from your desktop.
 
    **[PAID]** alternative of my choice is [Moom](https://manytricks.com/moom/) I use it on a regular basis. It costs 10$ and I consider it as more powerful solution.
 
-10. [f.lux](https://justgetflux.com/) **[FREE]** -- tool that makes the color of your computer's display adapt to the time of a day. It is warm at night and looks like sunlight during the day. If you work at night, the tool will do the job! I use it everyday. It helps to stake awake, even after working until late hours. What is more, I noticed that I wake up more relaxed. What I like most about f.lux:
+10.  [f.lux](https://justgetflux.com/) **[FREE]** -- tool that makes the color of your computer's display adapt to the time of a day. It is warm at night and looks like sunlight during the day. If you work at night, the tool will do the job! I use it everyday. It helps to stake awake, even after working until late hours. What is more, I noticed that I wake up more relaxed. What I like most about f.lux:
 
-    * Useful preferences with 4 presets for your needs (as you can see, I use `Working late` preset):
+* Useful preferences with 4 presets for your needs (as you can see, I use `Working late` preset):
 
-        ![f.lux_preferences](/images/2017/android_tools/f.lux_preferences.png)
+    ![f.lux_preferences](/images/2017/android_tools/f.lux_preferences.png)
 
-    * Notifications:
+* Notifications:
 
-        ![f.lux_notification](/images/2017/android_tools/f.lux_notification.png)
+    ![f.lux_notification](/images/2017/android_tools/f.lux_notification.png)
 
-    * It allows me sleep well.
+* It allows me sleep well.
 
 ---
 That was the very last point! I hope you enjoyed the article. Please let me know, if you know any useful tool which boosts your Android productivity!
