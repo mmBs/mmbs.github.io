@@ -1,8 +1,8 @@
 # Site settings
-title:       mmBs dev blog
+title:       mmBs dev's blog
 email:       mmbialas@gmail.com
 author:      Michal Bialas
-description: "mmBs blog just for reminding Android stuff, but not only :)"
+description: "mmBs blog just for reminding Android and other related stuff"
 baseurl:     ""
 url:         'https://mmbs.github.io'
 date_format: "%b %-d, %Y"
