@@ -2,7 +2,7 @@
 layout:     post
 title:      The Mobile App Launch Checklist — How to Ship Apps Like a Boss
 date:       2019-01-08
-summary:    A to do list to release successfully a mobile application.
+summary:    A to do list to release a mobile application successfully.
 categories: tools android ios
 ---
 
