@@ -5,7 +5,7 @@
 
 .posts .post {
   margin-bottom: 0.75em;
-  border-bottom: thin solid #f3f3f3;
+  border-bottom: 2px dashed #333;
 }
 
 .posts .post:last-child {
@@ -21,10 +21,13 @@
 }
 
 .post-footer {
-  @extend .italic;
-
+  font-family: 'VT323', monospace;
   margin-top: .75rem;
   text-align: center;
+}
+
+.post-footer p {
+  font-size: 1.5rem;
 }
 
 .post-footer .avatar {
@@ -35,12 +38,12 @@
 
 .meta,
 .post-meta {
+  font-family: 'VT323', monospace;
+  font-size: 1.5rem;
   width: auto;
-  font-weight: 300;
   margin: 0;
   padding: .25em 0;
-  color: #7a7a7a;
-  font-style: italic;
+  color: #333;
 }
 
 .related-post-title {

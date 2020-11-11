@@ -1,17 +1,22 @@
 .site-header {
   padding-top: $space-1;
   padding-bottom: $space-2;
+  font-family: 'VT323', monospace;
 }
 
 .site-header a {
   color: #333;
-  font-size: $h4;
-  font-weight: 300;
+  font-size: $h1;
   background-image: none;
 }
 
-.site-header .site-title {
+.site-header {
   font-size: $h2;
+}
+
+.site-title p {
+  color: #333;
+  font-size: 3rem;
 }
 
 .site-nav {
@@ -25,15 +30,15 @@
 .site-header nav a:hover,
 .site-header nav a:focus,
 .site-header nav a:active {
-  color: #444;
+  color: lime;
   opacity: 1;
 }
 
 .site-nav a {
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
-.site-nav a + a {
+.site-nav a+a {
   margin-left: 1em;
 }
 
@@ -42,6 +47,7 @@
 .posts .post a:hover .post-title,
 .posts .post a:hover .post-summary {
   opacity: 0.88;
+  color: lime;
 }
 
 .site-header {
@@ -50,4 +56,27 @@
 
 .site-header .site-nav {
   text-align: center;
+}
+
+.cursor {
+  content: '';
+  display: inline-block;
+  bottom: 0;
+  background: #444;
+  line-height: 60px;
+  margin-bottom: -2px;
+  width: 7px;
+  height: 2rem;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  from,
+  to {
+    background: transparent;
+  }
+
+  50% {
+    background: #444;
+  }
 }
