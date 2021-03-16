@@ -10,7 +10,9 @@ tags: about
 
 Hey!
 
-My name is Michal Bialas. I am  **Android Engineer** and **Professional Scrum Master** with a passion for software engineering, agile methodologies, Android development and all great libraries and frameworks.
+My name is Michal. Thanks for visiting my blog!
+
+I am  **Android Tech Lead**, **Direct Manager** and **Professional Scrum Master** with a passion for software engineering, agile methodologies, mobile technologies and all great libraries and frameworks.
 
 I am really enthusiastic about making things cleverer, simpler and smarter. I believe in Albert Einstein's quotation: *Make things as simple as possible, but not simpler*.
 
