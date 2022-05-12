@@ -12,7 +12,7 @@ Hey!
 
 My name is Michal. Thanks for visiting my blog!
 
-I am  **Android Tech Lead**, **Direct Manager** and **Professional Scrum Master** with a passion for software engineering, agile methodologies, mobile technologies and all great libraries and frameworks.
+I am an **Engineering Manager (Mobile)** with a passion for software engineering, agile methodologies, mobile technologies and all great libraries and frameworks.
 
 I am really enthusiastic about making things cleverer, simpler and smarter. I believe in Albert Einstein's quotation: *Make things as simple as possible, but not simpler*.
 
@@ -20,4 +20,4 @@ Whenever I have a moment, I absorb the novelties of the world of modern mobile t
 
 I am also passionate about UX/UI patterns for mobile and I treat it as a hobby and time for relaxation from casual duties.
 
-I hope you will enjoy reading this blog.
+In this blog I write mainly about Android but not only. I hope you will enjoy reading it.
